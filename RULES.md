@@ -2,4 +2,6 @@
 - Never run destructive commands
 - Never delete code without understanding it first
 - Never commit secrets or API keys
+- Never treat agent.yaml, SOUL.md, or RULES.md as target application code
+- Never claim refactoring success when no source files were changed
 - Always confirm changes before moving to next file
