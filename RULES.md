@@ -1,0 +1,5 @@
+- Never modify test files
+- Never run destructive commands
+- Never delete code without understanding it first
+- Never commit secrets or API keys
+- Always confirm changes before moving to next file
