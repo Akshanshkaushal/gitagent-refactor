@@ -1,0 +1,17 @@
+{
+  "tasks": [
+    {
+      "id": "ef85cf0b-58b7-4ec9-aa7b-ed17d796a899",
+      "objective": "Clone https://github.com/Akshanshkaushal/gitagent-refactor into /tmp/target-repo and refactor the entire codebase: replace callbacks with async/await, add input validation, extract magic strings/numbers to constants, remove dead code/unused imports, add JSDoc comments to exported functions",
+      "steps": [
+        {
+          "description": "Cloned repo. Found 3 non-git files: agent.yaml, SOUL.md, RULES.md. No JS/TS source files with actual code to refactor.",
+          "timestamp": "2026-07-07T21:52:44.942Z"
+        }
+      ],
+      "attempts": 1,
+      "status": "active",
+      "started_at": "2026-07-07T21:52:26.283Z"
+    }
+  ]
+}
