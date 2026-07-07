@@ -1,0 +1,5 @@
+.gitagent/
+memory/
+tmp*/
+tmptarget-*
+C:*
