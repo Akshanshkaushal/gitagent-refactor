@@ -7,6 +7,14 @@
       "attempts": 1,
       "status": "active",
       "started_at": "2026-07-07T22:15:30.093Z"
+    },
+    {
+      "id": "d5a06fc3-7f3e-41d4-a57b-1626c10a2b39",
+      "objective": "Refactor the codebase in C:/tmp/refactor-sample-sdk-run.",
+      "steps": [],
+      "attempts": 1,
+      "status": "active",
+      "started_at": "2026-07-08T08:24:14.251Z"
     }
   ]
 }
