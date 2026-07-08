@@ -7,6 +7,14 @@
       "attempts": 1,
       "status": "active",
       "started_at": "2026-07-07T22:15:30.093Z"
+    },
+    {
+      "id": "80acba11-2cbe-4bf5-9329-9d7a0c40ee4a",
+      "objective": "Clone repository C:/Users/aksha/Documents/gitagent/refactor-sample-target into C:/tmp/refactor-sample-sdk-run and refactor source files",
+      "steps": [],
+      "attempts": 1,
+      "status": "active",
+      "started_at": "2026-07-08T08:20:23.153Z"
     }
   ]
 }
