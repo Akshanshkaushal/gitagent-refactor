@@ -3,11 +3,13 @@ name: refactor-code
 description: Refactor source files without changing behavior
 confidence: 1.0
 learned_from: "manual:refactor-runner"
-learned_at: "2026-07-08T00:00:00.000Z"
-usage_count: 0
-success_count: 0
+learned_at: "2026-07-08T09:18:54.495Z"
+usage_count: 1
+success_count: 1
 failure_count: 0
 negative_examples: []
+last_session_id: "042db20e-ffe7-4285-adde-2c7044cbb422"
+last_changed_files: ["src/math-utils.js","src/user-service.js"]
 ---
 
 # Refactor Code
