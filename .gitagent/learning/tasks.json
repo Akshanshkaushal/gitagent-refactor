@@ -15,6 +15,14 @@
         "src/math-utils.js",
         "src/user-service.js"
       ]
+    },
+    {
+      "id": "ecae0f96-15f8-490f-b989-a9cf4cd14168",
+      "objective": "Check for applicable skills",
+      "steps": [],
+      "attempts": 1,
+      "status": "active",
+      "started_at": "2026-07-09T03:08:55.091Z"
     }
   ]
 }
