@@ -15,6 +15,14 @@
         "src/math-utils.js",
         "src/user-service.js"
       ]
+    },
+    {
+      "id": "51fab645-c118-4146-9d44-b7dd6ba4a69b",
+      "objective": "Refactor entire codebase: 1. Replace all callback-style async code with async/await, 2. Add input validation on every public-facing function, 3. Extract all magic strings and numbers into named constants, 4. Remove any dead code or unused imports, 5. Add JSDoc comments to every exported function",
+      "steps": [],
+      "attempts": 1,
+      "status": "active",
+      "started_at": "2026-07-09T03:57:59.871Z"
     }
   ]
 }
