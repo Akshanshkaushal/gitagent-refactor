@@ -28,6 +28,7 @@ last_learning_summary: "Successful behavior-preserving refactor across 2 source 
    - Add JSDoc comments to exported functions.
 5. After each file, report the file path and a short summary of what changed.
 6. Before writing a file, compare the proposed code against the original public API. If an exported function loses a parameter, changes sync/async behavior, removes callbacks, or changes return shape, do not write that change.
+7. Prefer small scoped edits over rewriting an entire file when that reduces tool-call size and risk.
 
 ## Output Format
 

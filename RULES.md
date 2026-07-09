@@ -6,4 +6,5 @@
 - Never claim refactoring success when no source files were changed
 - Never remove callback support from a public function while converting internals to async/await
 - Never change an exported function signature unless the user explicitly requests an API-breaking migration
+- Always use valid JSON for tool calls; if a write tool call would be too large, make a smaller scoped edit instead
 - Always confirm changes before moving to next file
