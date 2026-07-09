@@ -15,6 +15,14 @@
         "src/math-utils.js",
         "src/user-service.js"
       ]
+    },
+    {
+      "id": "00da7bdc-babf-4778-95c7-0fafad9804e9",
+      "objective": "refactor entire codebase",
+      "steps": [],
+      "attempts": 1,
+      "status": "active",
+      "started_at": "2026-07-09T04:05:55.326Z"
     }
   ]
 }
