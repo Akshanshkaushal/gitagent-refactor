@@ -1,6 +1,6 @@
 ---
 name: code-review
-description: Review code for correctness, maintainability, security, and behavior regressions
+description: Use only when the user explicitly asks for a code review, PR review, audit, or findings report
 confidence: 1.0
 learned_from: "manual:agent-structure"
 learned_at: "2026-07-08T00:00:00.000Z"
@@ -19,6 +19,7 @@ negative_examples: []
 3. Keep style-only comments secondary unless they hide a real maintainability risk.
 4. Reference exact files and line numbers when reporting issues.
 5. Do not rewrite unrelated code while reviewing.
+6. If the user asked to refactor rather than review, stop using this skill and use `refactor-code` instead.
 
 ## Output Format
 

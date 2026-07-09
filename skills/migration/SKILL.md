@@ -1,6 +1,6 @@
 ---
 name: migration
-description: Plan and execute behavior-preserving framework, API, or dependency migrations
+description: Use only when the user explicitly asks for a framework, API, dependency, or version migration
 confidence: 1.0
 learned_from: "manual:agent-structure"
 learned_at: "2026-07-08T00:00:00.000Z"
@@ -19,6 +19,7 @@ negative_examples: []
 3. Make small commits or file groups that preserve behavior at each step.
 4. Update imports, configuration, tests, and documentation that are required by the migration.
 5. Record risky assumptions and any follow-up checks in memory.
+6. If the user asked for normal refactoring rather than migration, stop using this skill and use `refactor-code` instead.
 
 ## Output Format
 

@@ -1,6 +1,6 @@
 ---
 name: refactor-code
-description: Refactor source files without changing behavior
+description: Use for plain source-code refactoring requests; improve code quality without changing behavior
 confidence: 1.0
 learned_from: "manual:refactor-runner"
 learned_at: "2026-07-08T13:48:35.271Z"
@@ -19,14 +19,15 @@ last_learning_summary: "Successful behavior-preserving refactor across 2 source 
 
 1. Read source files one at a time.
 2. Skip tests, fixtures, generated output, dependencies, `.git`, `.gitagent`, and `memory`.
-3. Preserve public exports, callback compatibility, thrown errors, return shapes, and observable behavior.
+3. Preserve public exports, function signatures, callback compatibility, thrown errors, return shapes, and observable behavior.
 4. Prefer small behavior-preserving improvements:
-   - Replace callback-style async code with async/await when compatibility can be preserved.
+   - Replace callback-style internals with async/await only when callback compatibility and public signatures are preserved.
    - Add validation to public-facing functions.
    - Extract repeated magic strings and numbers into named constants.
    - Remove unused imports and obviously unreachable code.
    - Add JSDoc comments to exported functions.
 5. After each file, report the file path and a short summary of what changed.
+6. Before writing a file, compare the proposed code against the original public API. If an exported function loses a parameter, changes sync/async behavior, removes callbacks, or changes return shape, do not write that change.
 
 ## Output Format
 

@@ -4,4 +4,6 @@
 - Never commit secrets or API keys
 - Never treat agent.yaml, SOUL.md, or RULES.md as target application code
 - Never claim refactoring success when no source files were changed
+- Never remove callback support from a public function while converting internals to async/await
+- Never change an exported function signature unless the user explicitly requests an API-breaking migration
 - Always confirm changes before moving to next file
