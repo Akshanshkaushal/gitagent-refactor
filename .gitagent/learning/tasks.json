@@ -15,6 +15,14 @@
         "src/math-utils.js",
         "src/user-service.js"
       ]
+    },
+    {
+      "id": "aa8f9a72-f510-43a5-8c47-03603f4cd6f3",
+      "objective": "Refactor entire codebase of https://github.com/Akshanshkaushal/refactor-sample-target",
+      "steps": [],
+      "attempts": 1,
+      "status": "active",
+      "started_at": "2026-07-09T04:18:49.302Z"
     }
   ]
 }
