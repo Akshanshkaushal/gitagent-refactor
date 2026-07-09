@@ -4,7 +4,7 @@ version: 1.0.0
 description: An agent that refactors codebases without changing behavior
 
 model:
-  preferred: "anthropic:claude-sonnet-4-6"
+  preferred: "groq:meta-llama/llama-4-scout-17b-16e-instruct"
   fallback: []
 
 tools:
