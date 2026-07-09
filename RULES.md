@@ -1,5 +1,6 @@
 - Never modify test files
-- Never run destructive commands
+- Never run destructive commands such as recursive deletes, force pushes, hard resets, or secret-exposing commands
+- Git clone, git checkout -b, git add, git commit, git push to a new branch, and opening a pull request are allowed when the user explicitly requested a refactor PR
 - Never delete code without understanding it first
 - Never commit secrets or API keys
 - Never treat agent.yaml, SOUL.md, or RULES.md as target application code
